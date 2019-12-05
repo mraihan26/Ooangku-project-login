@@ -1,0 +1,128 @@
+@font-face{
+    font-family: gilroy-bold;
+    src: url(Gilroy-ExtraBold.ttf);
+}
+
+@font-face{
+    font-family: montserrat-reg;
+    src: url(Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: montserrat-bold;
+    src: url(Montserrat-Bold.ttf);
+}
+
+.row{
+    margin: 0px;
+}
+
+.col-md-6{
+    padding-right: 0px;
+}
+
+.footer{
+    background-color: #2E2E2E;
+}
+
+.tulisan-footer h1{
+    padding-top: 50px;
+    font-family: montserrat-bold;
+    font-size: 70px;
+    color : white;
+    display: inline;
+}
+
+.tulisan-footer img{
+    max-height : 200px;
+}
+
+.judul h1{
+    font-size: 90px;
+    font-family: montserrat-bold;
+    font-weight: bold;
+    color: white;
+    display: inline;
+}
+
+#kuning-hitam{
+    color: black;
+    text-shadow:
+    -1px -1px 0 #F0BE60,
+    1px -1px 0 #F0BE60,
+    -1px 1px 0 #F0BE60,
+    1px 1px 0 #F0BE60;
+}
+
+.judul p{
+    font-size: 20px;
+    font-family: montserrat-reg;
+    color: white;
+}
+
+.features td{
+    padding-right : 50px;
+    padding-top : 50px;
+}
+
+.features td img{
+    padding : 0px;
+}
+
+.features td h4{
+    font-family: montserrat-bold;
+    font-size: 35px;
+}
+
+.features td p{
+    font-family: montserrat-reg;
+    font-size: 15px;
+}
+
+.features h3{
+    font-family: montserrat-bold;
+    font-size: 54px;
+}
+
+
+@media screen and (min-width: 601px) {
+    .judul{
+        padding : 100px 25px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .judul{
+        padding : 50px 12px;
+    }
+  }
+
+.nav-item{
+    padding-top: 5px;
+    padding-left:20px;
+    font-family: montserrat-reg;
+}
+
+.features img{
+    max-width : 100%;
+}
+
+.kuning{
+    color: #F0BE60;
+    font-family: gilroy-bold;
+    font-weight: lighter;
+}
+
+.putih{
+    color: white;
+    font-family: gilroy-bold;
+}
+
+.navbar-brand{
+    font-family: montserrat-bold;
+}
+
+label{
+    font-family: gilroy-bold;
+}
